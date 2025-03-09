@@ -38,13 +38,13 @@ export const TextGenerateEffect = ({
       <div className="my-4">
         <div
           ref={scope} // Attach scope reference here
-          className="dark:text-white text-black leading-snug tracking-wide"
+          className=" text-white leading-snug tracking-wide"
         >
           {wordsArray.map((word, idx) => (
             <motion.span
               key={`${word}-${idx}`}
               className={`opacity-0 ${
-                idx > 3 ? "text-purple-500" : "dark:text-white text-black"
+                idx > 3 ? "text-purple-500" : "text-white"
               }`}
             >
               {word}{" "}
