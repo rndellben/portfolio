@@ -91,31 +91,31 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non mollis mi. Nunc vitae mi semper, laoreet est a, feugiat eros. Duis nulla augue, condimentum quis placerat quis, hendrerit consectetur sapien. Aenean sed lorem maximus, vestibulum mauris bibendum, malesuada nunc. Praesent tempus libero et quam iaculis molestie. Quisque feugiat.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non mollis mi. Nunc vitae mi semper, laoreet est a, feugiat eros. Duis nulla augue, condimentum quis placerat quis, hendrerit consectetur sapien. Aenean sed lorem maximus, vestibulum mauris bibendum, malesuada nunc. Praesent tempus libero et quam iaculis molestie. Quisque feugiat.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non mollis mi. Nunc vitae mi semper, laoreet est a, feugiat eros. Duis nulla augue, condimentum quis placerat quis, hendrerit consectetur sapien. Aenean sed lorem maximus, vestibulum mauris bibendum, malesuada nunc. Praesent tempus libero et quam iaculis molestie. Quisque feugiat.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non mollis mi. Nunc vitae mi semper, laoreet est a, feugiat eros. Duis nulla augue, condimentum quis placerat quis, hendrerit consectetur sapien. Aenean sed lorem maximus, vestibulum mauris bibendum, malesuada nunc. Praesent tempus libero et quam iaculis molestie. Quisque feugiat.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non mollis mi. Nunc vitae mi semper, laoreet est a, feugiat eros. Duis nulla augue, condimentum quis placerat quis, hendrerit consectetur sapien. Aenean sed lorem maximus, vestibulum mauris bibendum, malesuada nunc. Praesent tempus libero et quam iaculis molestie. Quisque feugiat.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },

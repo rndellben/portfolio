@@ -4,15 +4,13 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "build": "npm install --legacy-peer-deps && next build",
+        "build": "next build",
         "start": "next start",
-        "lint": "next lint",
-        "export": "next build",
-        "deploy": "npm install --legacy-peer-deps && next build && next export && gh-pages -d out"
+        "lint": "next lint"
     },
     "dependencies": {
         "@heroui/react": "^2.7.4",
-        "@react-three/drei": "^9.122.0",
+        "@react-three/drei": "^10.0.4",
         "@react-three/fiber": "^9.0.0-alpha.8",
         "@sentry/nextjs": "^9.4.0",
         "clsx": "^2.1.1",
