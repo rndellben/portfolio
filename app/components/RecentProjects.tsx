@@ -23,7 +23,7 @@ const RecentProjects = () => {
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]"
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <img src="./bg.png" alt="bgimg" />
                 </div>
                 <img
                   src={img}
