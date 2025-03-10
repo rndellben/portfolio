@@ -75,7 +75,7 @@ export const navItems = [
       "des": "A headless WordPress-powered movie blog built with React, offering seamless content management and dynamic user experiences.",
       img: "./p1.png",
       iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./fm.svg"],
-      link: "https://67cbb64457c2147a0131a757--wpmovieblog.netlify.app",
+      link: "https://wpmovieblog.netlify.app/",
     },
     {
       id: 2,
