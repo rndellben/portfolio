@@ -1,0 +1,33 @@
+/* Tailwind Configuration */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Material Symbols Configuration */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* CSS Variables */
+:root {
+    --page-bg: #F9FAFB;
+}
+
+.dark {
+    --page-bg: #111827;
+}
+
+/* Body Styles */
+body {
+    background-color: var(--page-bg);
+    transition: background-color 0.3s ease;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--page-bg);
+    transition: background-color 0.3s ease;
+}
+
+/* Custom Tailwind Configuration (applied via CDN script) */
+/* This configuration is handled by the inline Tailwind config in the HTML */
