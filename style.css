@@ -3,14 +3,14 @@
   --ink: #17160f;
   --muted: #5f5b50;
   --rule: #d6d0c1;
-  --accent: #c2410c;
-  --serif: "Instrument Serif", Georgia, serif;
+  --accent: #0f6b3e;
+  --serif: "Schibsted Grotesk", system-ui, sans-serif;
   --sans: "Schibsted Grotesk", system-ui, sans-serif;
   --col: 11rem;
   --mono: "JetBrains Mono", ui-monospace, monospace;
 }
 @media (prefers-color-scheme: dark) {
-  :root { --paper: #14130e; --ink: #ece8dd; --muted: #a39e90; --rule: #34312a; --accent: #f08a54; }
+  :root { --paper: #14130e; --ink: #ece8dd; --muted: #a39e90; --rule: #34312a; --accent: #5fd08f; }
 }
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -28,7 +28,7 @@ img { display: block; max-width: 100%; height: auto; }
 .label { font: 500 0.75rem var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0; }
 
 .hero { display: grid; grid-template-columns: 1fr; gap: 2.5rem; padding-block: 3rem 5rem; align-items: end; }
-.hero h1 { font: 400 clamp(2.5rem, 6.4vw, 4.75rem)/1.02 var(--serif); letter-spacing: -0.01em; margin: 1.25rem 0 1.5rem; max-width: 16ch; }
+.hero h1 { font: 600 clamp(2.4rem, 6vw, 4.5rem)/1.04 var(--serif); letter-spacing: -0.035em; margin: 1.25rem 0 1.5rem; max-width: 16ch; }
 .lede { max-width: 38rem; color: var(--muted); margin: 0 0 2rem; }
 .actions { display: flex; gap: 1.5rem; align-items: center; margin: 0; }
 .btn { background: var(--ink); color: var(--paper); padding: 0.75rem 1.25rem; text-decoration: none; font-weight: 500; }
@@ -44,15 +44,15 @@ img { display: block; max-width: 100%; height: auto; }
 .ledger li { display: grid; gap: 0.25rem 2rem; padding-block: 1.5rem; border-bottom: 1px solid var(--rule); }
 .ledger li:first-child { padding-top: 0; }
 .ledger li:last-child { border-bottom: 0; padding-bottom: 0; }
-.fig { font: 400 clamp(2.25rem, 5vw, 3.5rem)/1 var(--serif); color: var(--accent); }
+.fig { font: 500 clamp(1.75rem, 3.6vw, 2.5rem)/1.1 var(--mono); letter-spacing: -0.04em; color: var(--accent); }
 .ledger p { margin: 0; max-width: 40rem; color: var(--muted); }
 .ledger strong { color: var(--ink); font-weight: 600; }
 
 .projects { list-style: none; margin: 0; padding: 0; display: grid; gap: 3rem; }
 .projects li { display: grid; gap: 1rem 2rem; }
 .projects img, .noimg { width: 100%; aspect-ratio: 16/9; object-fit: cover; object-position: top; border: 1px solid var(--rule); }
-.noimg { display: grid; place-items: center; font: 400 3rem var(--serif); color: var(--muted); }
-.projects h3 { font: 400 1.75rem/1.15 var(--serif); margin: 0 0 0.5rem; }
+.noimg { display: grid; place-items: center; font: 600 3rem var(--serif); color: var(--muted); }
+.projects h3 { font: 600 1.5rem/1.15 var(--serif); letter-spacing: -0.02em; margin: 0 0 0.5rem; }
 .projects p { margin: 0 0 0.75rem; color: var(--muted); }
 .links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; font: 500 0.8125rem var(--mono); }
 .links span { color: var(--muted); }
@@ -61,7 +61,7 @@ img { display: block; max-width: 100%; height: auto; }
 .timeline dt, .tools dt { font: 500 0.75rem var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); padding-top: 1rem; }
 .timeline dd, .tools dd { margin: 0.25rem 0 0; padding-bottom: 1rem; border-bottom: 1px solid var(--rule); max-width: 42rem; }
 
-.big { font: 400 clamp(1.75rem, 5vw, 3rem)/1.1 var(--serif); margin: 0; word-break: break-word; }
+.big { font: 600 clamp(1.6rem, 5vw, 3rem)/1.1 var(--serif); letter-spacing: -0.03em; margin: 0; word-break: break-word; }
 .elsewhere { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; margin: 0; font: 500 0.8125rem var(--mono); }
 .elsewhere span { color: var(--muted); }
 
@@ -70,7 +70,7 @@ footer { display: flex; justify-content: space-between; padding-block: 2rem 3rem
 @media (min-width: 52rem) {
   .hero { grid-template-columns: 1.6fr 1fr; }
   .block { grid-template-columns: var(--col) 1fr; gap: 3rem; }
-  .ledger li { grid-template-columns: 12rem 1fr; align-items: start; }
+  .ledger li { grid-template-columns: 12rem 1fr; column-gap: 0; align-items: start; }
   .ledger p { padding-top: 0.55rem; }
   .projects li { grid-template-columns: 12rem 1fr; align-items: start; }
   .projects li { grid-template-columns: 1fr 1fr; }
@@ -84,3 +84,5 @@ footer { display: flex; justify-content: space-between; padding-block: 2rem 3rem
 .noimg { background: #fff; }
 @media (prefers-color-scheme: dark) { .noimg { background: #f4f1ea; } }
 .weight { margin: 0; font: 400 0.75rem var(--mono); color: var(--muted); }
+
+.noimg img { object-fit: contain; }
