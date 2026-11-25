@@ -50,7 +50,7 @@ img { display: block; max-width: 100%; height: auto; }
 
 .projects { list-style: none; margin: 0; padding: 0; display: grid; gap: 3rem; }
 .projects li { display: grid; gap: 1rem 2rem; }
-.projects img, .noimg { width: 100%; aspect-ratio: 16/9; object-fit: cover; object-position: top; border: 1px solid var(--rule); }
+.projects img, .noimg { width: 100%; aspect-ratio: 2.2/1; object-fit: cover; object-position: top; border: 1px solid var(--rule); }
 .noimg { display: grid; place-items: center; font: 600 3rem var(--serif); color: var(--muted); }
 .projects h3 { font: 600 1.5rem/1.15 var(--serif); letter-spacing: -0.02em; margin: 0 0 0.5rem; }
 .projects p { margin: 0 0 0.75rem; color: var(--muted); }
