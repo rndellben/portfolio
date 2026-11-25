@@ -98,3 +98,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
   .hero { padding-block: 2rem 3rem; }
   footer { flex-direction: column; gap: 0.5rem; }
 }
+
+.intro { margin: 0 0 1.5rem; color: var(--muted); max-width: 38rem; }
+#work .ledger { margin-top: 0.5rem; }
+#contact .big { margin-bottom: 1rem; }
